@@ -12,6 +12,5 @@
   <ItemGroup>
     <Compile Include="..\Shared\*.cs" />
     <ProjectReference Include="..\..\Http2\Http2.csproj" />
-    <ProjectReference Include="..\..\Hpack\Hpack.csproj" />
   </ItemGroup>
 </Project>
