@@ -49,9 +49,9 @@ class Program
     bool isBenchmark = false;
 
     // Benchmark related settings
-    int totalRequests = 10000;
+    int totalRequests = 100000;
     int cpuCores = Environment.ProcessorCount;
-    int concurrentRequests = 1;
+    int concurrentRequests = 10;
 
     public void Run(string[] args)
     {
